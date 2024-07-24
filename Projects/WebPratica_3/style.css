@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+:root {
+    --color1: #f7f4e8;
+    --color2: #daf3ea;
+    --color3: #85e6c0;
+    --color4: #6bb39b;
+    --color5: #0b0b0d;
+}
+
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color2);
+}
+
+/* aqui começa o header */
+
+header {
+    background-color: var(--color4);
+}
+
+header>h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em;
+    box-shadow: 0px 0px 10px var(--color3) inset;
+}
+
+header>nav {
+    padding: 8px;
+    border-top: 1px solid var(--color5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>a {
+    padding: 8px 1em;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    transition: all .3s ease;
+}
+
+nav>a:first-child {
+    margin-right: 1em;
+}
+
+nav>a:hover {
+    border: 1px solid var(--color3);
+    box-shadow: 0px 0px 10px var(--color3) inset;
+}
+
+nav>a:active {
+    transform: scale(1.1);
+}
+
+/* aqui começa o main */
+
+main {
+    max-width: 1450px;
+    margin: auto;
+}
+
+.conteudo>aside {
+    max-width: 750px;
+    margin: 0px auto 2em;
+    padding: 1.5em 8px;
+    background-color: var(--color1);
+}
+
+aside>h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+aside>hr {
+    margin: 8px 0px;
+}
+
+aside>p {
+    text-align: justify;
+    text-indent: 1em;
+}
+
+main>section {
+    max-width: 750px;
+    background-color: var(--color4);
+    color: white;
+    padding: 2em 1em;
+    margin: 3em auto;
+    box-shadow: 0px 0px 20px var(--color2) inset;
+}
+
+main>section>hr {
+    margin: 8px 0px;
+}
+
+main>section>p {
+    text-align: justify;
+    text-indent: 1em;
+    margin: 1em 0px;
+}
+
+main>section>a {
+    text-decoration: none;
+    color: var(--color5);
+}
+
+main>section>a::before {
+    content: ">> ";
+}
+
+footer {
+    background-color: var(--color5);
+    color: white;
+    padding: 4em 1em;
+}
+
+footer>blockquote {
+    text-align: center;
+}
+
+.top {
+    background-color: var(--color1);
+    padding: 1.5em .5em;
+    margin: 3em 0px;
+}
+
+.top>hr {
+    margin: 8px 0px;
+}
+
+.top>p {
+    text-align: justify;
+    text-indent: 1em;
+}
+
+.pag {
+    background-color: var(--color1);
+    padding: 1em;
+}
+
+.pag>div {
+    border: 1px solid var(--color5);
+    border-radius: 25px;
+    margin: 1.5em 0px;
+    transition: all .3s ease-in;
+}
+
+.pag>div:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px var(--color4);
+}
+
+.pag>div>img {
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    border-bottom: 1px solid var(--color5);
+}
+
+.pag>div>legend {
+    text-align: center;
+    padding: .5em;
+}
