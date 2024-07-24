@@ -1,0 +1,174 @@
+:root {
+    --cor1: #99b333;
+    --cor2: #668c4d;
+    --cor3: #336666;
+}
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+.Principal {
+    height: 75vh;
+    width: 100%;
+    background-image: url('img/engine_1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Principal>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    padding: 5em;
+    border-radius: 2em;
+}
+
+div>h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+main>section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 5em 0px;
+    text-align: justify;
+}
+
+.img1 {
+    height: 50vh;
+    width: 100%;
+    background-image: url('img/cars_1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img2 {
+    height: 50vh;
+    width: 100%;
+    background-image: url('img/cars_2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img3 {
+    height: 50vh;
+    width: 100%;
+    background-image: url('img/engine_2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img4 {
+    height: 50vh;
+    width: 100%;
+    background-image: url('img/engine_3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img5 {
+    height: 50vh;
+    width: 100%;
+    background-image: url('img/engine_4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img6 {
+    height: 50vh;
+    width: 100%;
+    background-image: url('img/cars_3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2, h3 {
+    margin: 1em 0px;
+    text-align: center;
+    font-size: 140%;
+}
+
+p {
+    margin: 1em 0px;
+    text-indent: 1em;
+    font-size: 105%;
+}
+
+footer {
+    text-align: center;
+    background-color: #353535;
+    padding: 2em 0px;
+    color: #808080;
+}
+
+header {
+    background-color: var(--cor3);
+}
+
+header>div {
+    padding: 3em 0px;
+    text-align: center;
+}
+
+header>nav {
+    border-top: 1px solid #808080;
+    padding: 0.5em 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav>button {
+    padding: 1em;
+    border-radius: 20%;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav>button:hover {
+    background-color: var(--cor2);
+    text-decoration: underline;
+}
+
+nav>button:active {
+    background-color: var(--cor1);
+}
+
+header>div>h1 {
+    text-shadow: 5px 8px 10px #000000;
+}

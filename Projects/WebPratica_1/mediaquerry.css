@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+:root {
+    --color1: #0a4d65;
+    --color2: #083f56;
+    --color3: #053046;
+    --color4: #032237;
+    --color5: #001327;
+    --color6: #e9631d;
+}
+
+
+@media only screen and (min-width: 400px) {
+    body {
+        font-size: medium;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    body {
+        font-size: medium;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: medium;
+    }
+
+    main {
+        max-width: 750px;
+    }
+
+    header>h1 {
+        text-align: center;
+        width: 100vw;
+    }
+
+    header>span.material-symbols-outlined {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+    }
+
+    nav>a {
+        display: inline;
+        margin: 10px 0px;
+        padding: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    nav>a:first-child {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    nav>a:last-child {
+        border-radius: 0px 10px 10px 0px;
+        margin-right: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        font-size: medium;
+    }
+
+    main {
+        max-width: 750px;
+    }
+
+    header>h1 {
+        text-align: center;
+        width: 100vw;
+    }
+
+    header>span.material-symbols-outlined {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+    }
+
+    nav>a {
+        display: inline;
+        margin: 10px 0px;
+        padding: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    nav>a:first-child {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    nav>a:last-child {
+        border-radius: 0px 10px 10px 0px;
+        margin-right: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 1201px) {
+    body {
+        font-size: medium;
+    }
+
+    main {
+        max-width: 750px;
+    }
+
+    header>h1 {
+        text-align: center;
+        width: 100vw;
+    }
+
+    header>span.material-symbols-outlined {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+    }
+
+    nav>a {
+        display: inline;
+        margin: 10px 0px;
+        padding: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    nav>a:first-child {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    nav>a:last-child {
+        border-radius: 0px 10px 10px 0px;
+        margin-right: 20px;
+    }
+}
