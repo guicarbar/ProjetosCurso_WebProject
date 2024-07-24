@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+:root {
+    --color1: #53ac59;
+    --color2: #3b8952;
+    --color3: #0f684b;
+    --color4: #03484c;
+    --color5: #1c232e;
+}
+
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--color5);
+}
+
+/* header */
+
+header {
+    background-color: var(--color4);
+    padding: 2em 0px;
+    box-shadow: 0px 10px 20px var(--color4);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+header>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin: 0px 15px;
+    text-shadow: 4px 7px 10px black;
+}
+
+header>span {
+    padding: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+header>span:hover {
+    color: var(--color3);
+}
+
+header>span:active {
+    transform: scale(1.3);
+}
+
+header>nav {
+    width: 100vw;
+    margin: 20px 1em 0px 1em;
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+header>nav>a {
+    background-color: var(--color5);
+    text-decoration: none;
+    padding: 6px;
+    margin: 2px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px var(--color4) inset;
+    transition: all .3s ease;
+}
+
+header>nav>a:hover {
+    background-color: var(--color3);
+    box-shadow: 0px 0px 10px var(--color1) inset;
+}
+
+header>nav>a:active {
+    transform: scale(1.1);
+}
+
+/* main */
+
+main>div.conteudo {
+    padding: 0px 8px;
+    margin: 3em auto;
+    max-width: 800px;
+    min-height: 30vh;
+}
+
+main>div.conteudo>h1 {
+    text-align: center;
+    text-shadow: 4px 7px 10px black;
+}
+
+main>div.conteudo>h2 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+main>div.conteudo>p {
+    margin: 1em 0px;
+    text-indent: 1em;
+}
+
+.amazonia {
+    background-image: url('img/Floresta-amazonica.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.caatinga {
+    background-image: url('img/Caatinga.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.cerrado {
+    background-image: url('img/Cerrado.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.atlantica {
+    background-image: url('img/Mata-atlantica.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.pampa {
+    background-image: url('img/Pampa.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.pantanal {
+    background-image: url('img/Pantanal.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.amazonia>h1, .caatinga>h1, .cerrado>h1, .atlantica>h1, .pampa>h1, .pantanal>h1 {
+    padding: 1em;
+    border: 1px solid white;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+    color: black;
+    text-align: center;
+    box-shadow: 0px 0px 20px white;
+}
+
+main>div#referencia {
+    padding: 0px 8px;
+    margin: 3em auto;
+    max-width: 900px;
+    min-height: 30vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main>div#referencia>hr {
+    min-width: 800px;
+}
+
+main>div#referencia>h2 {
+    text-align: center;
+    margin: 1em 0px;
+}
+
+main>div#referencia>p {
+    text-indent: 1em;
+    margin: 2em 0px;
+}
+
+main>div#referencia>ul {
+    list-style: none;
+}
+
+main>div#referencia>ul>li {
+    margin: 5px 0px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+ul>li>a:hover {
+    color: var(--color1);
+}
+
+
+/* footer */
+
+footer {
+    background-color: var(--color4);
+    padding: 3em;
+    margin-top: 2em;
+}
+
+footer>blockquote {
+    text-align: center;
+}
