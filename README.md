@@ -49,6 +49,20 @@ Esses três projetos foram desenvolvidos para praticar o que foi aprendido no cu
 [WebPratica_3](Projects/WebPratica_3/index.html)
 
 
+### Loading_Web
+
+Este projeto faz parte de um grupo de iniciativas que serão atualizadas indefinidamente. Ele visa criar diferentes telas de carregamento para sites web e será continuamente expandido com novas ideias e aprendizados à medida que novos conceitos e técnicas forem explorados e incorporados.
+
+[Loading_Web](Projects/Loading_Web/index.html)
+
+
+### Obejtos_3d_Web
+
+Este é mais um projeto do grupo que será atualizado sem prazo definido. Focado na criação de objetos com perspectivas 3D usando HTML e CSS, ele será continuamente expandido com novas ideias e técnicas à medida que eu aprenda mais sobre os conceitos utilizados e descubra novas possibilidades de criação.
+
+[Obejtos_3d_Web](Projects/Objetos_3D_Web/index.html)
+
+
 ## Comentarios :phone:
 
 Até o momento, o curso do professor Gustavo Guanabara ainda não foi finalizado. Ele consiste em 5 módulos, dos quais assisti até o 4º, pois o 5º ainda não foi criado. Portanto, este projeto também não está finalizado e pode receber novos projetos e atualizações conforme o curso progride.
