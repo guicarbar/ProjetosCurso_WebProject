@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url('img/BG-desktop.png');
+        background-position: center center;
+    }
+
+    body>div {
+        max-width: 100vw;
+        display: flex;
+    }
+
+    div>div.login {
+        width: 50%;
+    }
+
+    div>div.mensagem {
+        width: 50%;
+        display: block;
+        padding: 0px 2em;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url('img/BG-desktop.png');
+        background-position: center center;
+    }
+
+    body>div {
+        max-width: 80vw;
+        display: flex;
+    }
+
+    div>div.login {
+        width: 50%;
+    }
+
+    div>div.mensagem {
+        width: 50%;
+        display: block;
+        padding: 0px 2em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-image: url('img/BG-desktop.png');
+        background-position: center center;
+    }
+
+    body>div {
+        max-width: 50vw;
+        display: flex;
+    }
+
+    div>div.login {
+        width: 50%;
+    }
+
+    div>div.mensagem {
+        width: 50%;
+        display: block;
+        padding: 0px 2em;
+    }
+    
+}
