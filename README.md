@@ -44,9 +44,9 @@ Este é um site que apresenta diferentes tipos de motores de carro, com uma esti
 
 Esses três projetos foram desenvolvidos para praticar o que foi aprendido no curso, utilizando todos os conceitos em conjunto. Cada projeto aborda um tema diferente, proporcionando uma variedade de experiências e desafios práticos.
 
-[WebPratica_1](Projects/WebPratica_1/index.html)
-[WebPratica_2](Projects/WebPratica_2/index.html)
-[WebPratica_3](Projects/WebPratica_3/index.html)
+* [WebPratica_1](Projects/WebPratica_1/index.html)
+* [WebPratica_2](Projects/WebPratica_2/index.html)
+* [WebPratica_3](Projects/WebPratica_3/index.html)
 
 
 ### Loading_Web
