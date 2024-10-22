@@ -68,3 +68,5 @@ Este é mais um projeto do grupo que será atualizado sem prazo definido. Focado
 Até o momento, o curso do professor Gustavo Guanabara ainda não foi finalizado. Ele consiste em 5 módulos, dos quais assisti até o 4º, pois o 5º ainda não foi criado. Portanto, este projeto também não está finalizado e pode receber novos projetos e atualizações conforme o curso progride.
 
 
+
+*Obs:* Projetos com o sufixo *'_WebProjects'* são aplicativos web, projetados para funcionar em navegadores.
